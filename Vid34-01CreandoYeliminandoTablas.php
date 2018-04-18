@@ -1,0 +1,52 @@
+<!-- Objetivo: crear una base de datos y una tabla desde la linea de comandos. En MySql las columnas son campos y las filas son registros.
+    HAY BASE DE DATOS Y DENTRO ESTAN 
+        LAS TABLAS
+    Mas abajo estan los datos.
+ 
+ -->
+ 
+<?php
+
+
+
+?>
+
+<!-- Para crear una base de datos me voy a cmd
+
+ ME situo en xamp/mysql/bin y escribo
+
+mysql -u root -p
+
+ME VA A PEDIR LA CONTRASENA, QUE EN ESTE CASO NO HAY POR LO QUE LE DOY INTRO
+
+ CREATE DATABASE DATABASENUEVA;
+
+ Y SE CREA
+
+PARA ENTRAR AHORA DENTRO DE LA BASE DE DATOS, ENTRO DENTRO DE ELLA ESCRIBIENDO
+
+USE DATABASENUEVA;
+
+
+
+Y AHORA CREO LA TABLA DENTRO DE LA BASE DE DATOS EN LA QUE ESTOY
+
+CREATE TABLE PRUEBESITA (NOMBRE VARCHAR(30), CLAVE VARCHAR(15));
+
+
+PARA BORRAR UNA TABLA
+
+DROP TABLE PRUEBESITA;
+
+
+
+SI QUIERO QUE EN EL COMANDO ME MUESTRE LA ESTRUCTURA DE LA TABLA
+
+DESCRIBE PRUEBESITA;
+
+
+PARA BORRAR COMPLETAMENTE UNA BASE DE DATOS:
+
+DROP DATABASE DATABASENUEVA;
+ -->
+
